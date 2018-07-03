@@ -52,7 +52,7 @@ $(document).ready(function() {
     loop: true,
     margin: 10,
     autoplay: true,
-    smartSpeed: 900,
+    smartSpeed: 500,
     autoplayTimeout: 2000,
     autoplayHoverPause: true
     });
