@@ -10,18 +10,18 @@ $(document).ready(function() {
 
   $('#slides').superslides({
     animation: 'fade',
-    play: 4000,
+    animation_speed: 'fast',
+    play: 4500,
     pagination: false
   });
 
   var typed = new Typed(".typed", {
     strings: ["Devops Software Engineer.", "Cloud-Devops Enthusiast.",
-      "Technologist.", "Web Development.",
-      "M.S - MIS,2018.", "Motorcycling Enthusiast."
+      "M.S - MIS,2018.", "Team Player - collaborator.", "Web Development."
     ],
-    typeSpeed: 85,
+    typeSpeed: 110,
     loop: true,
-    startDelay: 500,
+    startDelay: 300,
     showCursor: false
   });
 
